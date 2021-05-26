@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     author='jgiles',
     author_email='johngiles12345@gmail.com',
-    packages=find_packages('src'),
+    packages=find_packages(where='src'),
     package_dir={'': 'src'},
     install_requires=[]
 )
